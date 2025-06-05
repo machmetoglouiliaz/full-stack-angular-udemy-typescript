@@ -1,3 +1,4 @@
-for (var i = 0; i < 5; i++) {
+"use strict";
+for (let i = 0; i < 5; i++) {
     console.log(i);
 }

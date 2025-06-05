@@ -1,9 +1,9 @@
-var sportsOne = ["Golf", "Cricket", "Tennis", "Swimming"];
-for (var i = 0; i < sportsOne.length; i++) {
+"use strict";
+let sportsOne = ["Golf", "Cricket", "Tennis", "Swimming"];
+for (let i = 0; i < sportsOne.length; i++) {
     console.log(sportsOne[i]);
 }
-for (var _i = 0, sportsOne_1 = sportsOne; _i < sportsOne_1.length; _i++) {
-    var sport = sportsOne_1[_i];
+for (let sport of sportsOne) {
     if (sport == "Golf")
         console.log(sport + " <<< My favorite!");
     else
